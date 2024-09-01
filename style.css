@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff; /* Insertar el color de fondo*/
+    position: relative;
+}
+header
+{
+    width: 100%;
+    padding-top: 3.5em;
+}
+#banner
+{
+    padding-top: 5em;
+}
+header img
+{
+    width: 100%;
+    height: auto;
+}
+
+.navegacion 
+{
+    width: 100%;
+    /*cambiar altura de la barra de menu*/
+    background: #c3d3e0;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navegacion ul
+{
+    list-style: none;
+}
+
+.menu > li
+{
+    position: relative;
+    display: inline-block; /*Acomodar uno al lado de otro*/
+}
+
+.menu > li > a
+{
+    display: block;
+    padding: 15px 20px;
+    color: #073359;
+    font-family: 'Itim', cursive;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.menu li a:hover
+{
+    color: #2192BF;
+    transition: all 0.3s;
+}
+
+/*submenu*/
+
+.submenu
+{
+    position: absolute;
+    background: #A3B2BF;
+    width: 110%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.submenu li a
+{
+    display: block;
+    padding: 15px;
+    color:#073359;
+    font-family: 'tahoma';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu
+{
+visibility:visible;
+opacity: 1;
+}
+#boton
+{
+    text-decoration: none;
+    border: 1px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: cornflowerblue;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Itim', cursive;
+}
+p
+{
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    width: 80%;
+    font-size: 1.3em;
+}
+h1
+{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    padding-top: 3em;
+    color: #073359;
+    font-size: 2em;
+}
+ul
+{
+    text-indent: 3em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    width: 80%;
+    font-size: 1.3em;
+}
+.referencia
+{
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+.negrita
+{
+    font-weight: bold;
+}
+h2
+{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    color: #073359;
+    font-size: 1.8em; 
+}
+.par
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ficha
+{
+    text-align: center;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    border: 2px;
+    width: 40%;
+    height: 270px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #073359;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.ficha p
+{
+    width: 100%;
+}
+.titulo
+{
+    padding-top: 1em;
+    font-size: 2.5em;
+}
+#fichafer
+{
+    width: 100%;
+    height: 400px;
+}
+#opc
+{
+    width: 40%;
+    height: 315px;
+}
+.fichag
+{
+    text-align: center;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    border: 2px;
+    width: 40%;
+    height: 370px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #073359;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.fichag p
+{
+    width: 100%;
+}
+.ficham
+{
+    text-align: center;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    border: 2px;
+    width: 40%;
+    height: 312px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #073359;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.ficham p
+{
+    width: 100%;
+}
+.fichagg
+{
+    text-align: center;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    border: 2px;
+    width: 40%;
+    height: 485px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #073359;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.fichagg p
+{
+    width: 100%;
+}
